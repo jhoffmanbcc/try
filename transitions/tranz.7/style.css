@@ -1,0 +1,52 @@
+
+body {background-color: #9bcdff;}
+
+a.bcc {
+	
+padding: 5px 10px;
+background: #ff9bcd;
+border:5px double #9bffcd;
+color: #fff;
+font-size: 24px;
+text-decoration: none;
+
+/*
+-webkit-transition: background 0.3s ease, color 02s linear;
+-moz-transition: background 0.3s ease, color 02s linear;
+-o-transition: background 0.3s ease, color 02s linear;
+transition: background 0.3s ease, color 02.s linear; */
+
+/* Lastly if all the transitions will share the same effect..
+we can give use the term all .. which will cover all the possible
+properities that can be transitioned */
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+
+}
+
+a.bcc:hover,
+a.bcc:focus {
+
+border:5px dotted #ff9bcd;
+color: #9bffcd;	
+background: #9bffcd;
+
+/* above is where the demonstration is where the properties
+are changing */
+
+/* you can view all the properties at W3schools.com/cssref */
+
+
+/* We can see how easy and quick it can be to make some quick
+changes in interaction, rather than going to the platforms
+of javascript... but keep in mind that some users may not be
+able to see your fancy changes... so these elements should
+not be relied upon as the most integral parts of your website
+content .. even if more and more people are moving to the 
+newer browsers */
+
+
+}

@@ -1,0 +1,45 @@
+
+body {background-color: #9bcdff;}
+
+/* Ok... now lets add the necessary vendor
+prefixes so that our transitions will work
+accross as many browsers as possible */
+
+/* we will add for firefox and opera */
+
+
+a.bcc {
+	
+padding: 5px 10px;
+background: #ff9bcd;
+border:5px double #9bffcd;
+-webkit-transition: background 0.3s ease 0.5s;
+
+-moz-transition: background 0.3s ease 0.5s;
+-o-transition: background 0.3s ease 0.5s;
+
+/* then we will place a transition for those 
+browsers that do not need a specific prefix */
+
+transition: background 0.3s ease;
+
+/* Some would think that we would usually place the
+transitions in the hover state ... or another state, although in
+this organization, it has the ability to work with
+other states, and there will not be duplication */
+
+}
+
+
+/* for example... lets create the button state of 
+"focus" which displays when tabbed on the keyboard
+and is excellent for helping with accessibilty */
+
+
+a.bcc:hover,
+a.bcc:focus {	
+background: #9bffcd;
+border:5px dotted #ff9bcd;
+
+
+}

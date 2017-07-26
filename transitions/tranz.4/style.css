@@ -1,0 +1,36 @@
+
+body {background-color: #9bcdff;}
+
+
+/* lets add an extra element in our padding...
+perhaps a border... */
+
+a.bcc {
+	
+padding: 5px 10px;
+background: #ff9bcd;
+
+
+/*for the border we will assign border size, and then
+the type of border we would like to choose */
+
+/* here are the options for the border: dotted, dashed,
+solid, double, groove, ridge, inset, outset */
+
+
+border:5px double #9bffcd;
+-webkit-transition: background 0.3s ease 0.5s;
+}
+
+
+
+a.bcc:hover {	
+background: #9bffcd;
+
+/* Then we will change the border style at the 
+bottom when the area is on hover */
+
+border:5px dotted #ff9bcd;
+
+
+}

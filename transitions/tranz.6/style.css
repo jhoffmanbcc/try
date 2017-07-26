@@ -1,0 +1,47 @@
+
+body {background-color: #9bcdff;}
+
+
+
+
+a.bcc {
+	
+padding: 5px 10px;
+background: #ff9bcd;
+border:5px double #9bffcd;
+
+/* Something that always annoys me is the underline for words
+so lets get rid of that underline, make it bigger,  and change 
+the color of the text to match our current layout */
+color: #fff;
+font-size: 24px;
+text-decoration: none;
+
+
+/* We can also transition the font color with
+transitions, but just adding it into the stack
+of other transitions */
+
+-webkit-transition: border 08s linear;
+-moz-transition: background 0.3s ease, color 02s linear;
+-o-transition: background 0.3s ease, color 02s linear;
+transition: background 0.3s ease, color 02.s linear;
+
+
+
+}
+
+
+
+
+
+a.bcc:hover,
+a.bcc:focus {
+
+color: #9bffcd;	
+background: #9bffcd;
+opacity: .7;
+border:5px dotted #ff9bcd;
+
+
+}

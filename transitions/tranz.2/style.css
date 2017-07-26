@@ -1,0 +1,60 @@
+
+
+
+
+body {background-color: #9bcdff;}
+
+
+
+
+/* Ok... lets add a transition to the color change,
+which will smooth out and animate a bit... */
+
+
+
+a.bcc {
+	
+padding: 5px 10px;
+background: #ff9bcd;
+
+/* In the first example we will only use the vendor
+prefixed properties for Chrome and Safari... which 
+is known as Webkit  */
+
+
+-webkit-transition-property:background;
+-webkit-transition-duration: 0.3s;
+-webkit-transition-timing-function: ease;
+
+/* The 3 properties created are:
+transition property: The property to be transitiioned;
+transition duration: how long the transition should last
+transition-timing-function: how fast the transition
+happens over time ... otherwise known as easing or ease
+*/
+
+/* the other easing options are: 
+ease
+linear
+ease-in
+ease-out
+ease-in-out
+*/
+
+/* ease and linear are the most common options */
+
+/* transitions can also be delayed, for example, maybe 
+you want the transition to begin after the hover by
+1/2 second or a second... here is the code for that */
+
+-webkit-transition-delay: 0.5s;
+
+}
+
+
+a.bcc:hover {
+	
+background: #9bffcd;
+
+
+}

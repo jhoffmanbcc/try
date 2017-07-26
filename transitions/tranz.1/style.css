@@ -1,0 +1,31 @@
+
+
+/* Lets first add a background for no reason other
+than aesthetic purposes */
+
+body {background-color: #9bcdff;}
+
+
+
+
+/* Now we add a declaration with padding and a
+light red background */
+
+
+a.bcc {
+	
+padding: 5px 10px;
+background: #ff9bcd;
+
+
+
+}
+
+/* then we switch that background color upon hover */
+
+a.bcc:hover {
+	
+background: #9bffcd;
+
+
+}
